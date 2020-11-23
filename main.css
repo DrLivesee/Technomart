@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 1200px;
+    font-family: 'Cuprum', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+svg path {
+    fill: inherit;
+    stroke: inherit;
+    stroke-width: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    padding: 0 10px;
+}
+
+.header {
+    width: 100%;
+    height: 320px;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #293449;
+
+}
+
+.main-header .container {
+    display: flex;
+    align-items: center;
+}
+
+.main-header a:first-child {
+    text-transform: uppercase;
+    width: 220px;
+    background-color: #ee3643;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    margin-right: 17px;
+    position: relative;
+}
+
+.main-header a:first-child::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: #b52933;
+    height: 5px;
+    position: absolute;
+    top: 50px;
+}
+
+.main-header svg {
+    fill: white;
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: 0.3;
+}
+
+.main-header .main-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    width: 80px;
+}
+
+.main-header .main-search:hover svg {
+    opacity: 1;
+}
+
+.main-header .main-search:active svg {
+    opacity: 0.5;
+}
+
+.main-header .main-bookmarks {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.main-header .main-bookmarks:hover svg {
+    opacity: 1;
+}
+
+.main-header .main-bookmarks:active svg {
+    opacity: 0.5;
+}
+
+.main-header .main-basket {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.main-header .main-basket:hover svg {
+    opacity: 1;
+}
+
+.main-header .main-basket:active svg {
+    opacity: 0.5;
+}
+
+.main-header .main-checkout {
+    background-color: #63a63e;
+    padding: 16px 20px;
+}
+
+.main-header .main-checkout:hover {
+    background-color: #5fbb2d;
+}
+
+.main-header .main-checkout:active {
+    background-color: #518534;
+}
+
+.main-header-nav {
+    background-color: #f3f7f8;
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-header-nav .container:first-child {
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.main-header-nav .main-info {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header-nav .main-info .info {
+    width: 200px;
+    line-height: 24px;
+    color: #ee3643;
+}
+
+.main-header-nav .main-info .info-adress {
+    width: 280px;
+}
+
+.main-header-nav .main-info .info-adress p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: #47546a;
+    text-align: center;
+}
+
+.main-header-nav .main-info .main-number {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 280px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.main-header-nav .main-info .main-number svg {
+    margin-left: 20px;
+    opacity: 0.3;
+}
+
+.main-header-nav .main-info .main-number span {
+    margin-right: 50px;
+    font-size: 21px;
+    color: #ee3643;
+}
+
+.main-login {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-login .enter {
+    width: 110px;
+    background-color: white;
+    color: black;
+    padding: 15px 25px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 47px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-login .check-in {
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding: 15px 0px;
+    max-height: 47px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-header-nav .main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header-nav .main-nav a {
+    color: white;
+    width: 200px;
+    background-color: #32425c;
+    text-align: center;
+    padding: 22px 0px;
+    font-size: 17px;
+    border-bottom: 5px solid #293449;
+}
+
+.main-header-nav .main-nav a:hover {
+    background-color: #293449;
+}
+
+.main-header-nav .main-nav a:active {
+    background-color: #1d2739;
+    border-color: #1d2739;
+}
